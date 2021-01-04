@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: org.eclipse.epsilon.picto.csv
+Bundle-SymbolicName: org.eclipse.epsilon.picto.csv;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: org.eclipse.epsilon.picto.csv
+Export-Package: org.eclipse.epsilon.picto.csv
+Require-Bundle: org.eclipse.epsilon.picto;bundle-version="2.3.0",
+ org.apache.commons.csv

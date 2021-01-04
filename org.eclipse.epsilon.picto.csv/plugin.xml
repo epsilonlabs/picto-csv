@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.epsilon.picto.htmlElementTransformer">
+      <htmlElementTransformer
+            class="org.eclipse.epsilon.picto.csv.CsvRendererHeadAppender">
+      </htmlElementTransformer>
+   </extension>
+   <extension
+         point="org.eclipse.epsilon.picto.pictoSource">
+      <pictoSource
+            class="org.eclipse.epsilon.picto.csv.CsvSource">
+      </pictoSource>
+   </extension>
+   <extension
+         point="org.eclipse.epsilon.picto.viewContentTransformer">
+      <viewContentTransformer
+            class="org.eclipse.epsilon.picto.csv.CsvContentTransformer">
+      </viewContentTransformer>
+   </extension>
+
+</plugin>
